@@ -51,6 +51,11 @@ body{
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
-    margin-left: 4rem;
-    
+    margin-left: 4rem;   
+    transition: 0.3s; ;
+}
+
+.navbar a:hover{
+    color:var(--main-color);
+
 }
