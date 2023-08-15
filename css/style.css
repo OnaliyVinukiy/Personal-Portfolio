@@ -334,12 +334,16 @@ span{
 .port-content h3{
     font-size: 2rem;
     font-weight: 600;
+    margin:0px 0 0px 0;
+    color: black;
     
 }
 
 .port-content p{
-    font-size: 1.3rem;
-    margin:5px 0 15px 0;
+    font-size: 1.5rem;
+    margin:0px 0 0px 0;
+    color: black;
+    font-weight: 600;
 
 }
 
