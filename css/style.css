@@ -292,9 +292,9 @@ span{
 }
 
 .port-image img{
-    width:100%;
+    width:90%;
     opacity:.5s ;
-    height:100%;
+    height:90%;
     transition: .5s;;
 }
 
@@ -366,7 +366,7 @@ span{
 .icon-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 
 .icon-circle {
@@ -394,36 +394,4 @@ span{
     backdrop-filter: blur(50px); /* Adjust the blur amount */
 }
 
-.overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-}
 
-.overlay-content {
-    position: relative;
-    text-align: center;
-}
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    font-size: 40px;
-    color: red;
-   cursor: pointer;
-    transition: 0.3s;
-}
-
-
-#enlargedImage {
-    max-width: 100%;
-    max-height: 100%;
-}
