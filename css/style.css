@@ -279,24 +279,27 @@ span{
     grid-template-rows: 1fr auto;
     align-items: center;
     border: 2px solid var(--main-color);
+    height:220px;
     
 }
 
-.port-image{
+.port-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:100%;
-    width:100%;
-
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.port-image img{
-    width:90%;
-    opacity:.5s ;
-    height:90%;
-    transition: .5s;;
+.port-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
 }
+
 
 .port-content{
     position: absolute;
@@ -340,7 +343,7 @@ span{
 }
 
 .port-content p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin:0px 0 0px 0;
     color: black;
     font-weight: 600;
